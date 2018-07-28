@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -147,7 +147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234, y: -101}
+  m_AnchoredPosition: {x: -343, y: -158}
   m_SizeDelta: {x: 121.9, y: 40.705}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &153532734
@@ -344,7 +344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 62, y: -101}
+  m_AnchoredPosition: {x: -52, y: -158}
   m_SizeDelta: {x: 416.4, y: 40.707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &244923020
@@ -702,7 +702,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linkURL: {fileID: 244923020}
-  objName: ringo
 --- !u!4 &1171468637
 Transform:
   m_ObjectHideFlags: 0

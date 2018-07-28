@@ -6,7 +6,7 @@ public class LoadAssetBundles : MonoBehaviour
 {
 
     public InputField linkURL;
-    public string objName = "";
+    private string objName;
 
     public void BtnLoad()
     {
@@ -24,8 +24,7 @@ public class LoadAssetBundles : MonoBehaviour
         }
 
         AssetBundle bundle = www.assetBundle;
-
-        //var obj = bundle.mainAsset;
+        objName = linkURL.text.Substring(40);
         var obj = bundle.LoadAsset(objName);
         Instantiate(obj);
     }
